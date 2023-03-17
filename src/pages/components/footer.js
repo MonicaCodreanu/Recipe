@@ -11,9 +11,9 @@ function Footer() {
         </p>{" "}
       </div>
       <div className="gitHubLink">
-        <a target="_blank" href="https://github.com/flamingosolid/recipes.git">
+        {/* <a target="_blank" href="https://github.com/flamingosolid/recipes.git">
           https://github.com/flamingosolid/recipes.git
-        </a>
+        </a> */}
       </div>
     </div>
   );

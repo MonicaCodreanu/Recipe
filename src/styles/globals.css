@@ -13,17 +13,27 @@
 }
 
 body {
-  background-color: #f6eedf;
+  background: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: cover;
 }
 
 .searchBar {
   padding-left: 2rem;
   margin-top: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 input {
   padding: 0.5rem 2rem;
   border-radius: 5px;
+  width: 500px;
+  text-align: center;
+  border: none;
+  height: 60px;
+  font-size: 20px;
 }
 
 nav {
@@ -34,14 +44,15 @@ nav {
   padding-right: 20px;
   height: 5rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background: #d63447;
+  background: #de931b;
   color: white;
   margin-bottom: 2rem;
 }
 
 .pages img {
-  width: 300px;
+  width: 450px; /*changed from 300*/
   border-radius: 5px;
+  border: 1px solid white;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-top: 1rem;
 }
@@ -74,7 +85,7 @@ nav {
   padding-right: 20px;
   height: 5rem;
   box-shadow: 0 1px 8px #ddd;
-  background: #d63447;
+  background: #de931b;
   margin-top: 2rem;
 }
 
@@ -93,4 +104,18 @@ nav {
 
 .links a {
   color: white;
+}
+
+.ingredients {
+  border: 1px solid lightgray;
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 450px;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+}
+
+.bigImage {
+  width: 450px;
 }
