@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <nav>
       <div className="logo">
-        <h1>Laga mat med MAJA. M</h1>
+        <h1>Cook with MAJA. M</h1>
       </div>
       <div className="links">
         {/*    <Link> Home link here</Link> */}
