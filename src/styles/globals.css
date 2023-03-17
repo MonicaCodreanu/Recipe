@@ -65,6 +65,12 @@ nav {
   padding: 1rem;
   line-height: 1.8rem;
 }
+.pages h1 {
+  color: white;
+  font-size: 60px;
+  color: white;
+  text-shadow: 6px 2px 2px #ce5937;
+}
 
 .instructions {
   border: 1px solid lightgray;
@@ -118,4 +124,9 @@ nav {
 
 .bigImage {
   width: 450px;
+}
+
+.header {
+  color: white;
+  text-shadow: 6px 2px 2px #ce5937;
 }
