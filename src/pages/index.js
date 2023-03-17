@@ -52,7 +52,7 @@ export default function Main() {
   return (
     <>
       <h1 className="header">All recipes</h1>
-
+      <p>here</p>
       <div className="searchBar">
         <input
           type="text"
